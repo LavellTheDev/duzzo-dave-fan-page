@@ -1,0 +1,18 @@
+body{
+background-color: red
+}
+.wrapper{
+  color: white;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+}
+.letter{
+  align-items: center;
+  background-color: red;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+}
