@@ -1,6 +1,7 @@
 body{
 background-color: red;
 background-image: url("duzzobckgrnd.jpg");
+background-repeat: no-repeat;
 }
 .wrapper{
   color: white;
@@ -14,6 +15,7 @@ background-image: url("duzzobckgrnd.jpg");
 }
 .letter{
   align-items: center;
+  border: 1px solid black;
   display: flex;
   font-size: 25px;
   justify-content: center;
