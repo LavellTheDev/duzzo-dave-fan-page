@@ -1,17 +1,19 @@
 body{
-background-color: red
+background-color: red;
+background-image: url("duzzobckgrnd.jpg");
 }
 .wrapper{
   color: white;
-  background-color: black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: ;
   grid-column-gap: 1px;
   grid-row-gap: 1px;
+  height: 100vh;
+  width: 100vw;
 }
 .letter{
   align-items: center;
-  background-color: red;
   display: flex;
   font-size: 25px;
   justify-content: center;
