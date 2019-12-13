@@ -19,4 +19,9 @@ background-repeat: no-repeat;
   display: flex;
   font-size: 25px;
   justify-content: center;
+  opacity: 0;
+}
+.artistName{
+  color: gold;
+  font-size: 4rem;
 }
